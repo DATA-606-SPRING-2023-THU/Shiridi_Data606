@@ -1,6 +1,9 @@
 Draft PROPOSAL
+
 What is your issue of interest (provide sufficient background information)?
+
 A recommender system assists in personalizing a platform and assisting users in finding what they are looking for. Visiting locations is the finest way to refresh people's minds, but the most difficult aspect is locating the attractions, potential places to stay, and eateries.
+
 Why is this issue important to you and/or to others?
 This is an essential issue for me and others because it is difficult to discover the best places to stay and the type of meals they require whenever they travel. Building a recommendation system that can recommend the finest attractions, hotels, and restaurants saves people a lot of time.
 What questions do you have in mind and would like to answer?
