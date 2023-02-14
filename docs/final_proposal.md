@@ -16,6 +16,9 @@ This is an essential issue for me and others because it is difficult to discover
 
 # Where do you get the data to analyze and help answer your questions?
 For restaurants- Dataset for the project should be downloaded from Yelp dataset challenge 
+
+https://www.yelp.ca/dataset/download
+
 For hotels and attractions, I have downloaded Datasets from various open-source platforms like Kaggle
 # What kinds of techniques/models do you plan to use?
 1.	RBM, a Deep learning technique for Attractions.
