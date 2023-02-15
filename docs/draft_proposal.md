@@ -1,31 +1,23 @@
 # Draft PROPOSAL
-
+# Detection of breast cancer using CNN
 # What is your issue of interest (provide sufficient background information)?
-
-A recommender system assists in personalizing a platform and assisting users in finding what they are looking for. Visiting locations is the finest way to refresh people's minds, but the most difficult aspect is locating the attractions, potential places to stay, and eateries.
-
+Cancer is a disease where cells grow out of control. From the variations of cancer, breast cancer is the second most vulnerable one, for which deaths in women are the most. The probability that a woman dies due to breast cancer is 1 in 39, which is around 2.5%. Among 264,000 being diagnosed, around 42,000 women in the U.S. die each year from breast cancer
 # Why is this issue important to you and/or to others?
-This is an essential issue for me and others because it is difficult to discover the best places to stay and the type of meals they require whenever they travel. Building a recommendation system that can recommend the finest attractions, hotels, and restaurants saves people a lot of time.
+Women whose breast cancer is detected at an early stage have a 93% survival rate in the first five years. Even though Mammogram screening is used to detect the tumor, it is not perfect. These statistics direct us to a machine learning approach to detect breast cancer, as the traditional method is not that much trustworthy. Detection of breast cancer at an early stage is possible if we solve this problem with a machine learning approach.
 # What questions do you have in mind and would like to answer?
-•	What are the five possible stay options to stay near a restaurant?
+•	How accurate this model is when compared to traditional methods?
 
-•	What are the best attractions to visit based on timing?
-
-•	What are the two recommendations per meal per day?
-
-•	What are the restaurants recommended separately for each meal of the day?
-
+•	Can this be used as an extension to enhance the performance of traditional methods?
 # Where do you get the data to analyze and help answer your questions?
-For restaurants- Dataset for the project should be downloaded from Yelp dataset challenge 
-For hotels and attractions, I have downloaded Datasets from various open-source platforms like Kaggle
+I gathered the dataset from Kaggle which contains masked and unmasked images
+
+https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset
 # What kinds of techniques/models do you plan to use?
-1.	RBM, a Deep learning technique for Attractions.
-2.	Matrix Factorization with ALS, a highly scalable and distributed Collaborative Filtering technique for hotels.
-3.	K-Means Algorithm
-4.	K-Nearest Neighbors
+1.	Stratified k-fold for data pre-processing
+2.	CNN
 # What will be your unit of analysis and what variables/measures do you plan to use in your analysis?
-I’m going to use hotel rating, Location, Amenities, hotel name, country and locality for recommending some of the best hotels to stay and meals per day for attractions.
+The dataset contains masked and unmasked images. To understand the model better I’m using unmasked images.
 # How do you plan to develop/apply ML and how you evaluate/compare the performance of the models?
-My plan of action is to analyze the data and use a combination of supervised and unsupervised methods for collaborative filtering of restaurant data
-What outcomes do you intend to achieve?
-I intend to observe and learn ML model creation process and comparing various models for collaborative work and to perform and achieve Exploratory Data Analysis.
+I’m using AUC score to evaluate the performance of the CNN model and also the confusion matrix.
+# What outcomes do you intend to achieve?
+I intend to observe and learn ML model creation process and comparing the model for finding out the efficiency.
