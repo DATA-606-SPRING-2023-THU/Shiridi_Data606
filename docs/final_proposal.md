@@ -12,6 +12,104 @@ Women whose breast cancer is detected at an early stage have a 93% survival rate
 I gathered the dataset from Kaggle 
 
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+
+Total no of rows 569 and total no of columns is 32
+Columns are as follows
+ID
+
+Diagnosis
+
+Radius_mean
+
+Texture_mean
+
+Perimeter_mean
+
+Area_mean
+
+Smoothness_mean
+
+Compactness_mean
+
+Concavity_mean
+
+Concave points_mean
+
+Symmetry_mean
+
+ Fractal_dimension_mean
+ 
+Radius_se
+
+Perimeter_se
+
+Area_se
+
+Smoothness_se
+
+Compactness_se
+
+Concavity_se
+
+Concave points_se
+
+Symmetry_se
+
+Fractal dimension_se
+
+Radius_worst
+
+Texture_worst
+
+Perimeter_worst
+
+Area_worst
+
+Smoothness_worst
+
+Compactness_worst
+
+Concavity_worst
+
+Concave points_worst
+
+Symmetry_worst
+
+Fractal dimension_worst
+
+
+Ten real value features are computed for each nucleus
+a) radius (mean of distances from center to points on the perimeter)
+
+b) texture (standard deviation of gray-scale values)
+
+c) perimeter
+
+d) area
+
+e) smoothness (local variation in radius lengths)
+
+f) compactness (perimeter^2 / area - 1.0)
+
+g) concavity (severity of concave portions of the contour)
+
+h) concave points (number of concave portions of the contour)
+
+i) symmetry
+
+j) fractal dimension ("coastline approximation" - 1)
+
+The mean, standard error and "worst" or largest (mean of the three
+largest values) of these features were computed for each image,
+resulting in 30 features. For instance, field 3 is Mean Radius, field
+13 is Radius SE, field 23 is Worst Radius.
+All feature values are recoded with four significant digits.
+Missing attribute values: none
+Class distribution: 357 benign, 212 malignant
+
+
+
+
 # What kinds of techniques/models do you plan to use?
 1. Logistic Regression
 2. K Neighbours Classsifier
