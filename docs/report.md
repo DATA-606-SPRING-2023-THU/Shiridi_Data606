@@ -16,6 +16,8 @@ https://github.com/DATA-606-SPRING-2023-THU/Shiridi_Data606/blob/main/docs/Capst
 
 Youtube Link:
 
+https://www.youtube.com/watch?v=6Q9--5B430U
+
 
 
 ## Aim:
